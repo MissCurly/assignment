@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+   int sum_of_marks, total_students;
+   float mean;
+   printf("enter the value of sum_of_marks  total_students:");
+   scanf("%d %d", &sum_of_marks, &total_students);
+   
+   
+   mean=((float)sum_of_marks + (float)total_students)/2;
+   printf("\nvalue of mean is:%f", mean);
+   return 0; 
+}
